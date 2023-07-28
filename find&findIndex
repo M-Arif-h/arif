@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <title>
+            http//www.wellcome.com
+        </title>
+    </head>
+    <body>
+        <script>
+
+    let numbers = [23,11,42,23,12,34,19];
+//find is return velue 
+    const find = numbers.find(x => x%2===0);
+
+//findIndex is return index number of value
+    const findIndex = numbers.findIndex(x => x%2===0);
+    console.log(find);
+    console.log(findIndex);
+
+//now i used a object
+    const information = [
+        {
+            id : 3033,
+            name : "rrrr",
+            gpa : 3.44
+        },
+        {
+            id : 3933,
+            name : "rrrr",
+            gpa : 4.44
+        },
+        {
+            id : 3733,
+            name : "rrrr",
+            gpa : 2.44
+        },
+        {
+            id : 3533,
+            name : "rrrr",
+            gpa : 4.00
+        },
+        {
+            id : 3333,
+            name : "rrrr",
+            gpa : 2.88
+        },
+    ];
+
+    console.log(information.find(x => x.gpa > 2.99));
+    console.log(information.findIndex(x => x.gpa > 2.99));
+
+
+
+        </script>
+    </body>
+</html>
